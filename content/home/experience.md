@@ -35,7 +35,7 @@ experience:
   - title: Research Assistant/ Data Science R&D Intern
     company: Legal IQ
     company_url: ''
-    company_logo: org-x
+    company_logo: generated
     location: Michigan
     date_start: '2018-01-01'
     date_end: '2019-12-31'
