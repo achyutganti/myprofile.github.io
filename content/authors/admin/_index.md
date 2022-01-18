@@ -1,39 +1,39 @@
 ---
 # Display name
-title: Nelson Bighetti
+title: Achyut Ganti
 
 # Is this the primary user of the site?
 superuser: true
 
 # Role/position/tagline
-role: Professor of Artificial Intelligence
-
+role: Graduate Research Student
 # Organizations/Affiliations to show in About widget
 organizations:
-- name: Stanford University
-  url: https://www.stanford.edu/
+- name: Oakland University
+  url: https://oakland.edu/
 
 # Short bio (displayed in user profile at end of posts)
-bio: My research interests include distributed robotics, mobile computing and programmable matter.
+bio: My research interests include Natural Language Processing, Computational Social Science, Machine Learning and Data Science.
 
 # Interests to show in About widget
 interests:
-- Artificial Intelligence
+- Natural Language Processing
 - Computational Linguistics
-- Information Retrieval
+- Data Mining
+- Machine Learning
 
 # Education to show in About widget
 education:
   courses:
-  - course: PhD in Artificial Intelligence
-    institution: Stanford University
-    year: 2012
-  - course: MEng in Artificial Intelligence
-    institution: Massachusetts Institute of Technology
-    year: 2009
-  - course: BSc in Artificial Intelligence
-    institution: Massachusetts Institute of Technology
-    year: 2008
+  - course: PhD in Computer Science
+    institution: Oakland University
+    year: 2021-
+  - course: Masters in Computer Information Systems
+    institution: Grand Valley State University
+    year: 2018
+  - course: B.Tech in Electronics and Communications
+    institution: Jawaharlal Nehru Technological University
+    year: 2016
 
 # Social/Academic Networking
 # For available icons, see: https://wowchemy.com/docs/getting-started/page-builder/#icons
@@ -51,7 +51,7 @@ social:
   link: https://scholar.google.co.uk/citations?user=sIwtMXoAAAAJ
 - icon: github
   icon_pack: fab
-  link: https://github.com/gcushen
+  link: https://github.com/achyutganti
 - icon: linkedin
   icon_pack: fab
   link: https://www.linkedin.com/
