@@ -32,7 +32,7 @@ experience:
     description: |2-
         Designing technical specification documents for Automation Projects. Hands-on experience on UiPath and OpenSpan automation tools. Practical knowledge on creating automations depending on the client requirements. Working knowledge on using HTML objects. Testing, debugging and depoying the automation on both local and server using Pega Robot Manager.
         
-  - title: Research Assistant/Data Science R&D Intern
+  - title: Research Assistant/ Data Science R&D Intern
     company: Legal IQ
     company_url: ''
     company_logo: org-x
