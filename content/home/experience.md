@@ -24,13 +24,13 @@ date_format: Jan 2006
 experience:
 
   - title: Application Developer
-   company: Meijer
-   company_url: ''
-   company_logo: org-gc
-   location: Michigan
-   date_start: '2021-09-15'
-   date_end: '2021-12-15'
-   description: was an applications developer
+    company: Meijer
+    company_url: ''
+    company_logo: org-gc
+    location: Michigan
+    date_start: '2021-09-15'
+    date_end: '2021-12-15'
+    description: was an applications developer
 
   
   - title: Jr.Automation Developer
@@ -53,5 +53,5 @@ experience:
     description: Working through Grand Valley to provide statistical consulting for a private client. Researching and applying statistical methods to create a marketing product that the client can patent and sell. Tasks include Web Scraping using Selenium, data collection and simulation, pre-processing and analyzing datasets with over 7 million public records. Used ML techniques like social network analysis, clusteering, classification etc to identify and group common behavior among potential targets.
     
 design:
-  columns: '3'
+  columns: '2'
 ---
