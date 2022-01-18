@@ -41,15 +41,6 @@ experience:
     date_end: '2019-12-31'
     description: Working through Grand Valley to provide statistical consulting for a private client. Researching and applying statistical methods to create a marketing product that the client can patent and sell. Tasks include Web Scraping using Selenium, data collection and simulation, pre-processing and analyzing datasets with over 7 million public records. Used ML techniques like social network analysis, clusteering, classification etc to identify and group common behavior among potential targets.
     
-    - title: Research Assistant
-    company: Grand Valley State University
-    company_url: ''
-    company_logo: org-x
-    location: Michigan
-    date_start: '2017-04-01'
-    date_end: '2017-12-31'
-    description: Developed and maintained a web application called 'SPOT' that analyzes the temporal patterns of similar genes belonging to different platforms. Maintained and updated the MySQL database where the user and the gene data was maintained.
-
 design:
   columns: '2'
 ---
