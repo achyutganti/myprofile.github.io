@@ -26,7 +26,7 @@ experience:
   - title: Application Developer
     company: Meijer
     company_url: ''
-    company_logo: org-gc
+    company_logo: meijer
     location: Michigan
     date_start: '2021-09-15'
     date_end: '2021-12-15'
@@ -41,12 +41,15 @@ experience:
     date_start: '2020-01-17'
     date_end: '2021-08-10'
     description: |2-
-        Designing technical specification documents for Automation Projects. Hands-on experience on UiPath and OpenSpan automation tools. Practical knowledge on creating automations depending on the client requirements. Working knowledge on using HTML objects. Testing, debugging and depoying the automation on both local and server using Pega Robot Manager.
+        Designing technical specification documents for Automation Projects. 
+        Hands-on experience on UiPath and OpenSpan automation tools. 
+        Practical knowledge on creating automations depending on the client requirements. 
+        Working knowledge on using HTML objects. Testing, debugging and depoying the automation on both local and server using Pega Robot Manager.
         
   - title: Research Assistant/ Data Science R&D Intern
     company: Legal IQ
     company_url: ''
-    company_logo: generated
+    company_logo: legaliq
     location: Michigan
     date_start: '2018-01-01'
     date_end: '2019-12-31'
