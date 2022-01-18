@@ -26,7 +26,7 @@ experience:
   - title: Application Developer
     company: Meijer
     company_url: ''
-    company_logo: meijer
+    company_logo: meijerr
     location: Michigan
     date_start: '2021-09-15'
     date_end: '2021-12-15'
