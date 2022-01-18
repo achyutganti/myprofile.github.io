@@ -51,5 +51,5 @@ experience:
     description: Developed and maintained a web application called 'SPOT' that analyzes the temporal patterns of similar genes belonging to different platforms. Maintained and updated the MySQL database where the user and the gene data was maintained.
 
 design:
-  columns: '3'
+  columns: '2'
 ---
