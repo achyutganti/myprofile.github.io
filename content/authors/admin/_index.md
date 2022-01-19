@@ -74,4 +74,4 @@ I am a first year Ph.D. student in the Department of Computer Science at Oakland
 
 My research intersts broadly includes natural language processing, machine learning, computational social sciences and I'm also interested in studying human behavior and how it affects natural language in everyday life.
 
-{{< icon name="download" pack="fas" >}} Download my {{< staticref "uploads/demo_resume.pdf" "newtab" >}}resumé{{< /staticref >}}.
+{{< icon name="download" pack="fas" >}} Download my {{< staticref "uploads/resume.pdf" "newtab" >}}resumé{{< /staticref >}}.
