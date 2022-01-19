@@ -26,6 +26,8 @@ feature:
   icon_pack: fas
   name: Scikit-Learn
 - name: Python
+  icon: python
+  icon_pack: custom
 - name: SQL
 - name: GitHub
   
