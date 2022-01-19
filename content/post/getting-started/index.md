@@ -1,6 +1,6 @@
 ---
 title: Creating a Bootable Linux Flash Drive
-subtitle: Welcome 👋 We know that first impressions are important, so we've populated your new site with some initial content to help you get familiar with everything in no time.
+subtitle: There are many ways to install an image of the linux OS onto your drives. This tutorial shows just one of those methods.
 
 # Summary for listings and search engines
 summary: How to create a bootable linux flash drive 
