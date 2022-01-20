@@ -6,7 +6,7 @@ title: Achyut Ganti
 superuser: true
 
 # Role/position/tagline
-role: Graduate Research Student
+role: PhD/ Computer Science
 # Organizations/Affiliations to show in About widget
 organizations:
 - name: Oakland University
@@ -45,10 +45,10 @@ social:
   link: '/#contact'
 - icon: twitter
   icon_pack: fab
-  link: https://twitter.com/GeorgeCushen
+  link: https://twitter.com/
 - icon: graduation-cap  # Alternatively, use `google-scholar` icon from `ai` icon pack
   icon_pack: fas
-  link: https://scholar.google.co.uk/citations?user=sIwtMXoAAAAJ
+  link: https://scholar.google.com/
 - icon: github
   icon_pack: fab
   link: https://github.com/achyutganti
@@ -70,7 +70,7 @@ email: ""
 highlight_name: true
 ---
 
-I am a first year Ph.D. student in the Department of Computer Science at Oakland University advised by Dr. Steven Wilson. Prior to joining OU, I graduated with a masters degree in Computer Science from Grand Valley State University. 
+I am a first year Ph.D. student in the Department of Computer Science at Oakland University advised by [Dr. Steven Wilson](https://steverw.com/). Prior to joining OU, I graduated with a masters degree in Computer Science from [Grand Valley State University](https://www.gvsu.edu/). 
 
 My research intersts broadly includes natural language processing, machine learning, computational social sciences and I'm also interested in studying human behavior and how it affects natural language in everyday life.
 
