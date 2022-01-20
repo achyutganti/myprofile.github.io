@@ -53,23 +53,23 @@ categories:
 4) Find the pid of firefox  
 - pidof firefox
 - pgrep firefox
- How to look at the nice values in the terminal 
+5) How to look at the nice values in the terminal 
 - ps   -ax   -o   pid,ni,cmd
- Know the process name given the pid. 
+6) Know the process name given the pid. 
 - ps   -p   pid   
 - ps    -p   pid   -o   comm = 
 - ps    -p   pid   -o   comm 
  - the process is selected with its pid with  -p. '-o' option specifies the output format. comm command gives the command name. Example firefox or kworker etc. 
-- neofetch - tool to show thelogo of the linux distro and other system information. 
-- install a package in linux - sudo apt-get install $package_name
-- check the disk space in linux - 
+7) neofetch - tool to show thelogo of the linux distro and other system information. 
+8) install a package in linux - sudo apt-get install $package_name
+9) check the disk space in linux - 
  - [Check disk space](https://www.cyberciti.biz/faq/linux-check-disk-space-command/)
-- Get into the root user mode - sudo su  and then type the password.
+10) Get into the root user mode - sudo su  and then type the password.
 - Getting out of the root user  -  simply type exit.
-- custom commands in linux - [custom_comm](https://askubuntu.com/questions/118312/how-can-i-create-a-custom-terminal-command-to-run-a-script)
+11) custom commands in linux - [custom_comm](https://askubuntu.com/questions/118312/how-can-i-create-a-custom-terminal-command-to-run-a-script)
 - Understanding xargs, grep, apropos, env, unmask,  export commands in linux
-- [List all the linux users in the system](https://www.cyberciti.biz/faq/linux-list-users-command/)
-- Move , copy , paste, rename files and directoriers in linux
+12) [List all the linux users in the system](https://www.cyberciti.biz/faq/linux-list-users-command/)
+13) Move , copy , paste, rename files and directoriers in linux
 Working with files and directories. 
 - mkdir and rmdir - to make and delete directories
 - But rmdir can only delete empty directories. **rm** option can be helpful in deletion of files and also non-empty folders. 
