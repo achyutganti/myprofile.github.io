@@ -72,6 +72,6 @@ highlight_name: true
 
 I am a first year Ph.D. student in the Department of Computer Science at Oakland University advised by [Dr. Steven Wilson](https://steverw.com/). Prior to joining OU, I graduated with a masters degree in Computer Science from [Grand Valley State University](https://www.gvsu.edu/). 
 
-My research intersts broadly includes natural language processing, machine learning, computational social sciences and I'm also interested in studying human behavior and how it affects natural language in everyday life.
+My research intersts broadly include natural language processing, machine learning, computational social sciences and I'm also interested in studying human behavior and how it affects natural language in everyday life.
 
 {{< icon name="download" pack="fas" >}} Download my {{< staticref "uploads/resume.pdf" "newtab" >}}resumé{{< /staticref >}}.
