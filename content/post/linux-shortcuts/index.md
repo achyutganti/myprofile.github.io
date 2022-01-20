@@ -1,9 +1,9 @@
 ---
-title: Creating a Bootable Linux Flash Drive
-subtitle: There are many ways to install an image of the linux OS onto your drives. This tutorial shows just one of those methods.
+title: Basic Linux Commands Ever User Should Know 
+subtitle: If you're planning on using Linux as your choice of operating system, then learning some basic commands could come in very handy.
 
 # Summary for listings and search engines
-summary: How to create a bootable linux flash drive 
+summary: Basic Linux Commands Ever User Should Know 
 
 # Link this post with a project
 projects: []
@@ -23,7 +23,7 @@ featured: false
 # Featured image
 # Place an image named `featured.jpg/png` in this page's folder and customize its options here.
 image:
-  caption: 'Image credit: [**Unsplash**](https://unsplash.com/photos/CpkOjOcXdUY)'
+  caption: 'Image credit: [**pexels**](https://www.pexels.com/photo/close-up-photo-of-programming-of-codes-546819/)'
   focal_point: ""
   placement: 2
   preview_only: false
@@ -33,18 +33,96 @@ authors:
 
 tags:
 - Academic
+- Linux Tips
 
 categories:
 - Linux
-- Bootable flash
 ---
 
-## Process
+- linux command to list all the processes going on 
+ - top  - traditional way to ccheck the processes in linux
+ - htop - advanced and more recent one. 
+ - ps - lists all the processes runnning on the system.
+ - ps   -A
+ - ps   -A | less  -to show less and can press q when wanted to exit
+- to search for a specific process 
+ - ps   -A  |  grep firefox.  - grep is a command used to find something in linux terminal. We used grep to find firefox's process ID and time it was on
+- Understand what tty1 and tty2 etc are in ubuntu. ps command outputs this.  
+ - Looks like mine is tty2. Press Ctrl+Alt+F{1,2,...6} and login onto another tty
+-  Find the pid of firefox  
+- pidof firefox
+- pgrep firefox
+- How to look at the nice values in the terminal 
+- ps   -ax   -o   pid,ni,cmd
+- Know the process name given the pid. 
+- ps   -p   pid   
+- ps    -p   pid   -o   comm = 
+- ps    -p   pid   -o   comm 
+ - the process is selected with its pid with  -p. '-o' option specifies the output format. comm command gives the command name. Example firefox or kworker etc. 
+- neofetch - tool to show thelogo of the linux distro and other system information. 
+- install a package in linux - sudo apt-get install $package_name
+- check the disk space in linux - 
+ - [Check disk space](https://www.cyberciti.biz/faq/linux-check-disk-space-command/)
+- Get into the root user mode - sudo su  and then type the password.
+- Getting out of the root user  -  simply type exit.
+- custom commands in linux - [custom_comm](https://askubuntu.com/questions/118312/how-can-i-create-a-custom-terminal-command-to-run-a-script)
+- Understanding xargs, grep, apropos, env, unmask,  export commands in linux
+- [List all the linux users in the system](https://www.cyberciti.biz/faq/linux-list-users-command/)
+- Move , copy , paste, rename files and directoriers in linux
+Working with files and directories. 
+- mkdir and rmdir - to make and delete directories
+- But rmdir can only delete empty directories. **rm** option can be helpful in deletion of files and also non-empty folders. 
+- Also check the man command to get complete information about the command we want to know about. Example - man mkdir.  
+- touch - this command is used to make empty files in linux. Not the directories but just empty .doc or .txt files. 
+- touch example.txt creates an empty .txt file in the current wrkng dir
+- cp example.txt exx.txt - will copy and paste the file example.txt in the same folder with another name exx.txt.
+- If you want to rename the file example.txt instead of copying it with a different name, then use  mv example.txt exx.txt
+- How to delete the exx.txt that we just created. 
+- rm command is used to delete the files and also directories,    although directories with files in them need special permissions. 
+- rm exx.txt will delete the file exx.txt that was created in the curr_dir 
+- How to copy and paste a file in one directory into another. 
+- mv example.txt   ~ - moves the file example.txt into the home dir. '~' is home directory.
+ - If you want to copy then use cp in place of mv. 
+ - If you want to delete multiple files then mention the filenames after rm command. rm file1 file2 file3....
+ - If you want to copy the directories use cp directory1 path_to_other_dir. If the directories have files in them you have to specify -r along with cp command.  the  -r is recursive copy of folder and also the files in the folder.  
+## WARNiNG
+Never type these dangerous linux commands in the terminal. 
+- rm -rf/  - Deletes all the files in the home directory. Wipes off everything.  
+- : ( ) { : | : & } ; :  - Deadly fork bomb that recursily uses all the resources of the PC and keeps running until the PC freezes. 
 
-1. Click on [this link](https://gitlab.com/bztsrc/usbimager). This will take you to a place called USBimager. 
-2. Pick your appropriate distribution and download the file onto your local machine. It's a pretty small file so it shouldn't take that long to install.
-3. Extract the files onto your local disk. 
-4. Go to [Ubuntu](https://ubuntu.com/download/desktop) and download the latest LTS version on your drive. But if you want to go with the non LTS-versions that's okay too. It means that you'll enjoy the bleeding edge features of the latest updates to ubuntu but will also come with the risk of bugs. 
-5. Open USB imager on your PC and browse for the ubuntu file you have downloaded. 
-6. Connect the USB flash drive to your computer and hit write.
-7. That's it. Wait till the drive gets dedicated to the ubuntu image.
+### April 26 2018
+## [Linux Tip | 10 Useful Linux Commands](https://www.youtube.com/watch?v=vAdR-M9H_1w)
+- **killall** - If we have an application on the system that is misbehaving. Like a web-browser doesnt function well and clicking on the 'x' doesnt respond. The way to use it is. 
+ - killall $program_name  ------> killall firefox
+- **touch** command - creates files. We can create just one file at a time with the help of the GUI. But with touch command, we can create multiple files at once. 
+ - touch file1 file2 file3 
+ - We cn use the touch command to change the access times of that file. Helps in backup. so if we touch an already created file, then the touch command changes the access or create time of those files. 
+-  We can create flag files. for instance. For example - **sudo touch /forcefsck** and then asks for the password because it is in the root.  After running this command, when the system gets opened, it takes a moment to check if all the partitions are ok. 
+- **which** - This command tells where a program is in the computer. 
+ - **which rstudio** gives the location of the rstudio in the computer. 
+
+-  **ping**  command - This command is used to check if there is any coonnectivity issues with the computer or any problems with the browser. etc. 
+ - **ping www.google.com -c 3** -this command will send a request to the google server and see if the system is recieving the packets or not. Dash c '-c' and 3 are used to send and recieve just 3 packets. If not mentioned, the system will send request 64 times which we dont need. 
+ 
+- **cat** command - cat command is used to print the contents of the file in the terminal. It is mainly used with 
+ - **cat /etc/somefile** and not with the text file.
+ - But if we read a text file, we have the whole output on the terminal screeen which we dont need. So. 
+- To tackle the above case we have the **less** command. **less abc.txt** outputs the contents of the file in such a way that we can navigate the contents one line at a time. Also there is an old way to do it  is to use the cat command as shown below  
+ - **cat longfile.txt | more** - This will be equivalent to the less command that we used in an old way. 
+- **sudo -s** - This command gives you the root privilages. to exit frm this command just type **exit**. But this has to be done with caution, bacuase any small mistake in the root user access can damage the entire system. 
+- **su username** - this command su space username helps us to jump into other user accounts without logging out and getting in at the GUI level. Just type su space username, type the password. and press enter. Even after doing that the pwd might still be in the user's directory. to completely change into the one you logged into. Type **cd ~** to get into their home directory.  
+ - To exit from their desktop, just type exit and it will bring you back to your pc.
+- sudo reboot - will reboot the system. Helpful if we want to  do a kernel update. Also useful if the desktop freezes. 
+- If the system locks up and even the terminal doesnt show up we use somethimg called as tty.
+- We can shutdown the system using the terminal, 
+- sudo shutdown -h  ----> meaning i want the system to **halt**
+- sudo shutdown -r  ----> system to reboot 
+But what makes this command useful is that we can give it a time 
+- sudo shutdown -h now ----> will shutdown the system just now. 
+- sudo shutdown -h 15 ------> will shutdown the system after 15 mnts
+- sudo shutdown -c ----> will tell the system to ignore the above command. 
+- **man** - opens up the manual page for all the other commands. Useful one. 
+- **caffeine** allows us to halt the system from going into sleep when we are away so that the applications do not go into sleep when we are away. Use **sudo apt-get install caffeine** command to install the package. 
+
+How to change the screen resolution from the terminal 
+- xrandr -s 1920x1080
