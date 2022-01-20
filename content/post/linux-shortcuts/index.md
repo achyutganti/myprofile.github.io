@@ -38,23 +38,24 @@ tags:
 categories:
 - Linux
 ---
+### Below are a list of all commands that I've used at some point in time.
 
-- linux command to list all the processes going on 
+1) linux command to list all the processes going on 
  - top  - traditional way to ccheck the processes in linux
  - htop - advanced and more recent one. 
  - ps - lists all the processes runnning on the system.
  - ps   -A
  - ps   -A | less  -to show less and can press q when wanted to exit
-- to search for a specific process 
+2) to search for a specific process 
  - ps   -A  |  grep firefox.  - grep is a command used to find something in linux terminal. We used grep to find firefox's process ID and time it was on
-- Understand what tty1 and tty2 etc are in ubuntu. ps command outputs this.  
+3) Understand what tty1 and tty2 etc are in ubuntu. ps command outputs this.  
  - Looks like mine is tty2. Press Ctrl+Alt+F{1,2,...6} and login onto another tty
--  Find the pid of firefox  
+4) Find the pid of firefox  
 - pidof firefox
 - pgrep firefox
-- How to look at the nice values in the terminal 
+ How to look at the nice values in the terminal 
 - ps   -ax   -o   pid,ni,cmd
-- Know the process name given the pid. 
+ Know the process name given the pid. 
 - ps   -p   pid   
 - ps    -p   pid   -o   comm = 
 - ps    -p   pid   -o   comm 
