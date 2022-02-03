@@ -4,7 +4,7 @@
 # This file is formatted using YAML syntax - learn more at https://learnxinyminutes.com/docs/yaml/
 
 #title: Achyut Ganti # Website name
-baseurl: 'Achyut Ganti' # Website URL
+baseurl: 'https://example.com/' # Website URL
 copyright: '© {2022} Achyut Ganti' # Footer text, e.g. '© {year} Me'
 
 ############################
