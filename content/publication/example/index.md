@@ -28,7 +28,7 @@ publishDate: "2022-07-23T00:00:00Z"
 publication_types: ["1"]
 
 # Publication name and optional abbreviated publication name.
-publication: In Proceedings of the 4th Workshop on Narrative Understanding Jul 2022*
+publication: In Proceedings of the 4th Workshop on Narrative Understanding Jul 2022
 publication_short: In *WNU2022*
 
 abstract: Narratives have been shown to be an effective way to communicate health risks and promote health behavior change, and given the growing amount of health information being shared on social media, it is crucial to study health-related narratives in social media. However, expert identification of a large number of narrative texts is a time consuming process, and larger scale studies on the use of narratives may be enabled through automatic text classification approaches. Prior work has demonstrated that automatic narrative detection is possible, but modern deep learning approaches have not been used for this task in the domain of online health communities. Therefore, in this paper, we explore the use of deep learning methods to automatically classify the presence of narratives in social media posts, finding that they outperform previously proposed approaches. We also find that in many cases, these models generalize well across posts from different health organizations. Finally, in order to better understand the increase in performance achieved by deep learning models, we use feature analysis techniques to explore the features that most contribute to narrative detection for posts in online health communities.
