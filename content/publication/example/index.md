@@ -8,6 +8,9 @@ title: "Narrative Detection and Feature Analysis in Online Health Communities"
 authors:
 - Ganti, Achyutarama
 - Wilson, Steven
+- Ma, Zexin
+- Zhao, Xinyan
+- Ma, Rong
 
 
 # Author notes (optional)
