@@ -6,7 +6,7 @@ title: "Narrative Detection and Feature Analysis in Online Health Communities"
 # If you created a profile for a user (e.g. the default `admin` user), write the username (folder name) here 
 # and it will be replaced with their full name and linked to their profile.
 authors:
-- Ganti, Achyutarama
+- <ins>Ganti, Achyutarama</ins>
 - Wilson, Steven
 - Ma, Zexin
 - Zhao, Xinyan
